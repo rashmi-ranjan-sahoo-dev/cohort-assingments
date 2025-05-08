@@ -1,0 +1,17 @@
+{
+  "name": "6.2-bookmark-manager",
+  "version": "1.0.0",
+  "description": "Create an in-memory Bookmark Manager application using Node.js, HTML, CSS, and JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}

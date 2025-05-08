@@ -1,17 +1,50 @@
 body {
   /*start here  */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
  }
    
  .container {
   /*start here  */
+  height:70vh;
+  width: 50vw;
+  background-color: aquamarine;
+  text-align: center;
+  margin:100px 0;
  }
-   
+ #bookmark-url{
+  height: 40px;
+  width: 80%;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+  margin: 20px;
+ }
+ #bookmark-category{
+  height: 40px;
+  width: 80%;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+  margin-bottom: 20px;
+ }
  h1 {
     /*start here  */
  }
     
  button {
    /*start here  */
+   padding: 10px;
+   border-radius: 10px;
+   border: none;
+ }
+ button:hover{
+  background-color: chocolate;
+  color: white;
+  transition: all 0.5s ease-in-out ;
  }
    
  #bookmark-list {
